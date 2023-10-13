@@ -18,6 +18,9 @@ local function loadGame()
 	playdate.display.setRefreshRate(30) -- Sets framerate to 50 fps
 	math.randomseed(playdate.getSecondsSinceEpoch()) -- seed for math.random
 	gfx.setFont(font)
+
+	--player hit box
+	
 end
 local function updateCrank()
 	if playdate.isCrankDocked() then
